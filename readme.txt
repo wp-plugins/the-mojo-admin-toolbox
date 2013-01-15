@@ -24,7 +24,7 @@ The Mojo Admin Toolbox is a collection of little functions I found myself using 
 
 = New Features =
 * Modify From name and email address for all emails sent by your Wordpress site!
-* Image uploader now in use on the options page!
+* Image uploader now in use on the options page (Now using the WordPress 3.5 Media Manager)!
 * Added option to override theme, useful if your theme is trying to do the same thing as this plugin is!
 
 = Future Development Plan =
@@ -60,8 +60,13 @@ Check out the Other Notes section for more info.
 
 == Changelog ==
 
+=1.3=
+* Updated to work with the new WordPress Media Manager introduced in 3.5.
+* Adding option to remove Windows Livewriter links from the document head.
+* Minor tidy ups to code.
+
 =1.2.4 =
-* Long overdue fix for Login Screen after WordPress 3.4
+* Long overdue fix for Login Screen after WordPress 3.4.
 * Fixing text validation of footer text to allow links.
 
 = 1.2.3 =
