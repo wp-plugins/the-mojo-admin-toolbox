@@ -91,7 +91,7 @@ if ( ! class_exists( 'mojoToolbox' ) ) :
 			add_filter( 'login_headertitle', array( $this, 'custom_login_description' ), $this->priority );
 			
 			/**
-			 * Hide Wordpress Generator Tag
+			 * Hide WordPress Generator Tag
 			 */
 			if ( isset( $this->options['hide_wp'] ) && $this->options['hide_wp'] == 1 ) :
 				remove_action( 'wp_head', 'wp_generator' );

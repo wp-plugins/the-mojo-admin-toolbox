@@ -156,7 +156,7 @@ if ( ! class_exists( 'mojoToolboxOptions' ) ) :
 				<?php endif; ?>
 				
 				<!-- Description -->
-				<p><?php echo _e( 'The Mojo Admin Toolbox allows you to disable or hide a number of things from your Wordpress site, it also allows you to modify a few things that you can\'t do "out of the box". These are all things that I have had to do for clients over the past year or so so wanted to bundle them all up into an easy to use plugin for other developers/site owners. You can get more info at my site <a href="http://www.mojowill.com">here.</a>', 'mojo-toolbox' );?></p>
+				<p><?php echo _e( 'The Mojo Admin Toolbox allows you to disable or hide a number of things from your WordPress site, it also allows you to modify a few things that you can\'t do "out of the box". These are all things that I have had to do for clients over the past year or so so wanted to bundle them all up into an easy to use plugin for other developers/site owners. You can get more info at my site <a href="http://www.mojowill.com">here.</a>', 'mojo-toolbox' );?></p>
 				
 				
 				<!-- Beginning of the Plugin Options Form -->
@@ -173,7 +173,7 @@ if ( ! class_exists( 'mojoToolboxOptions' ) ) :
 							<td>
 								<label><input name="mojoToolbox_options[remove_comments]" type="checkbox" value="1" <?php if ( isset( $this->options['remove_comments'] ) ) { checked( '1', $this->options['remove_comments'] ); } ?> /> <?php echo _e( 'Hide the comments system.', 'mojo-toolbox' );?></label><br />
 								<label><input name="mojoToolbox_options[remove_editor]" type="checkbox" value="1" <?php if ( isset( $this->options['remove_editor'] ) ) { checked( '1', $this->options['remove_editor'] ); } ?> /> <?php echo _e( 'Hide the theme editor screen.', 'mojo-toolbox' );?></label><br />
-								<label><input name="mojoToolbox_options[hide_wp]" type="checkbox" value="1" <?php if ( isset( $this->options['hide_wp'] ) ) { checked( '1', $this->options['hide_wp'] ); } ?> /> <?php echo _e( 'Hide the Wordpress Meta Generator tag.', 'mojo-toolbox' );?></label><br />
+								<label><input name="mojoToolbox_options[hide_wp]" type="checkbox" value="1" <?php if ( isset( $this->options['hide_wp'] ) ) { checked( '1', $this->options['hide_wp'] ); } ?> /> <?php echo _e( 'Hide the WordPress Meta Generator tag.', 'mojo-toolbox' );?></label><br />
 								<label><input name="mojoToolbox_options[byebye_livewriter]" type="checkbox" value="1" <?php if ( isset( $this->options['byebye_livewriter'] ) ) { checked( '1', $this->options['byebye_livewriter'] ); } ?> /><?php echo _e( 'Remove Windows Livewriter Links in the document head.', 'mojo-toolbox' );?></label><br />
 								<label><input name="mojoToolbox_options[override_theme]" type="checkbox" value="1" <?php if ( isset( $this->options['override_theme'] ) ) { checked( '1', $this->options['override_theme'] ); } ?> /><span style="color:red;margin-left:2px;"><?php echo _e( 'Override theme, this will make sure what you set in here overrides any similar functions or filters in your theme.', 'mojo-toolbox' );?></span></label><br />
 							</td>
@@ -183,7 +183,7 @@ if ( ! class_exists( 'mojoToolboxOptions' ) ) :
 							<th scope="row"><?php echo _e( 'Dashboard Options', 'mojo-toolbox' );?></th>
 							<td>
 								<label><input name="mojoToolbox_options[dashboard_plugins]" type="checkbox" value="1" <?php if ( isset( $this->options['dashboard_plugins'] ) ) { checked( '1', $this->options['dashboard_plugins'] ); } ?> /> <?php echo _e( 'Hide the "Plugins" dashboard widget.', 'mojo-toolbox' );?></label><br />
-								<label><input name="mojoToolbox_options[dashboard_primary]" type="checkbox" value="1" <?php if ( isset( $this->options['dashboard_primary'] ) ) { checked( '1', $this->options['dashboard_primary'] ); } ?> /> <?php echo _e( 'Hide the "Wordpress Blog" dashboard widget.', 'mojo-toolbox' );?></label><br />
+								<label><input name="mojoToolbox_options[dashboard_primary]" type="checkbox" value="1" <?php if ( isset( $this->options['dashboard_primary'] ) ) { checked( '1', $this->options['dashboard_primary'] ); } ?> /> <?php echo _e( 'Hide the "WordPress Blog" dashboard widget.', 'mojo-toolbox' );?></label><br />
 								<label><input name="mojoToolbox_options[dashboard_links]" type="checkbox" value="1" <?php if ( isset( $this->options['dashboard_links'] ) ) { checked( '1', $this->options['dashboard_links'] ); } ?> /> <?php echo _e( 'Hide the "Incoming links" dashboard widget.', 'mojo-toolbox' );?></label><br />
 								<label><input name="mojoToolbox_options[dashboard_secondary]" type="checkbox" value="1" <?php if ( isset( $this->options['dashboard_secondary'] ) ) { checked( '1', $this->options['dashboard_secondary'] ); } ?> /> <?php echo _e( 'Hide the "Other News" dashboard widget.', 'mojo-toolbox' );?></label><br />
 							</td>
@@ -202,7 +202,7 @@ if ( ! class_exists( 'mojoToolboxOptions' ) ) :
 						<tr>
 							<th scope="row"><?php echo _e( 'Custom Login URL', 'mojo-toolbox' );?></th>
 							<td>
-								<label><input name="mojoToolbox_options[login_url]" type="text" value="<?php if ( isset( $this->options['login_url'] ) ) echo $this->options['login_url'];?>"/><span style="color:#666666;margin-left:2px;"><?php echo _e( 'The URL to goto when clicking on the login screen logo. (defaults to the site url when plugin is activated, instead of wordpress.org)', 'mojo-toolbox' );?></span></label>
+								<label><input name="mojoToolbox_options[login_url]" type="text" value="<?php if ( isset( $this->options['login_url'] ) ) echo $this->options['login_url'];?>"/><span style="color:#666666;margin-left:2px;"><?php echo _e( 'The URL to goto when clicking on the login screen logo. (defaults to the site url when plugin is activated, instead of WordPress.org)', 'mojo-toolbox' );?></span></label>
 							</td>
 						</tr>
 						

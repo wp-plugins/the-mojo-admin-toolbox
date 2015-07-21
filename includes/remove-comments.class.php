@@ -2,7 +2,7 @@
 /**
  * Remove Comments
  * 
- * Removes all traces of Comments from Wordpress
+ * Removes all traces of Comments from WordPress
  * 
  * @author Will Wilson <will@mojowill.com>
  * @version 1.2.4
