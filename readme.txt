@@ -3,7 +3,7 @@ Contributors: mojowill
 Donate link: http://www.mojowill.com/
 Tags: admin, tools
 Requires at least: 3.5
-Tested up to: 3.5
+Tested up to: 4.2
 Stable tag: trunk
 
 A small toolbox of functions for customising the admin dashboard, useful for hiding stuff from clients!
@@ -59,6 +59,8 @@ Check out the Other Notes section for more info.
 1. A simple to use options page.
 
 == Changelog ==
+= 1.3.3 =
+* Updating supported WordPress versions.
 
 = 1.3.2 =
 * A few more missed fixes after the last release.
